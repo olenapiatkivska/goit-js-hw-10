@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 2</title>
+    
     <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/errorIcon-3dd30987.js">
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
     <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-64d3c796.css">
   </head>
   <body>
     <p><a class="task-link" href="./index.html">Go back</a></p>
-    <hr />
+
     <form class="form">
       <label>
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input name="delay" type="number" required />
       </label>
 
       <fieldset>
         <legend>State</legend>
         <label>
-          <input type="radio" name="state" value="fulfilled" required />
+          <input name="state" type="radio" value="fulfilled" required />
           Fulfilled
         </label>
         <label>
-          <input type="radio" name="state" value="rejected" required />
+          <input name="state" type="radio" value="rejected" required />
           Rejected
         </label>
       </fieldset>
